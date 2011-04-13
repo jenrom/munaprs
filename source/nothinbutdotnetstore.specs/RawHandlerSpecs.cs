@@ -9,8 +9,7 @@ namespace nothinbutdotnetstore.specs
 {
     public class RawHandlerSpecs
     {
-        public abstract class concern : Observes<IHttpHandler,
-                                            RawHandler>
+        public abstract class concern : Observes<IHttpHandler, RawHandler>
         {
         }
 
@@ -30,8 +29,10 @@ namespace nothinbutdotnetstore.specs
             Because b = () =>
                 sut.ProcessRequest(an_http_context);
 
-            It should_delegate_the_processing_to_the_front_controller = () =>
-                front_controller.received(x => x.process(the_request));
+            private It should_delegate_the_processing_to_the_front_controller = () =>
+                                                                                    {
+                                                                                        front_controller.received(x => x.process(the_request));
+                                                                                    };
 
             static IProcessIncomingWebRequests front_controller;
             static object the_request;
