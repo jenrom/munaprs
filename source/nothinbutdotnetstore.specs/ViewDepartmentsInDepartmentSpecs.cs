@@ -14,9 +14,9 @@ namespace nothinbutdotnetstore.specs
         }
 
         [Subject(typeof(ViewTheDepartmentsInADepartment))]
-        public class when_run : concern
+        public class when_the_subdepartmens_of_a_department_with_a_given_id_are_requested : concern
         {
-            It first_observation = () => 
+            private It should_delegate_the_displying_of_the_report_model_for_the_list_of_subdepartments = () => { };
         }
     }
 }
