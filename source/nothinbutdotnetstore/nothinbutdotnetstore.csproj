@@ -77,7 +77,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="web\application\IHaveDepartments.cs" />
+    <Compile Include="web\application\MainDepartment.cs" />
     <Compile Include="web\application\ViewMainDepartmentsInTheStore.cs" />
+    <Compile Include="web\core\ICanRespond.cs" />
     <Compile Include="web\core\ITriggerApplicationSpecificFunctionality .cs" />
     <Compile Include="web\core\CommandRegistry.cs" />
     <Compile Include="web\core\ComposedCommand.cs" />
