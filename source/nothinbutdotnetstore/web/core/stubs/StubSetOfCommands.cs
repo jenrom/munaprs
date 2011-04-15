@@ -12,7 +12,7 @@ namespace nothinbutdotnetstore.web.core.stubs
         {
             var catalog = Stub.a<StubStoreCatalog>();
 
-            yield return new ComposedCommand(x => true, new ViewProductsInADepartment());
+            yield return new ComposedCommand(x => true, new LogMessageCommand(new ViewProductsInADepartment()));
         }
 
         IEnumerator IEnumerable.GetEnumerator()

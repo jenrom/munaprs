@@ -117,6 +117,7 @@
     <Compile Include="web\core\asp\ResponseEngine.cs" />
     <Compile Include="web\core\stubs\GetTheMainDepartmentsInTheStore.cs" />
     <Compile Include="web\core\stubs\StubCommandFactory.cs" />
+    <Compile Include="web\core\stubs\StubLogMessage.cs" />
     <Compile Include="web\core\stubs\StubRequestFactory.cs" />
     <Compile Include="web\core\stubs\StubSetOfCommands.cs" />
     <Compile Include="web\application\models\DepartmentModel.cs" />
