@@ -77,6 +77,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ILogMessage.cs" />
     <Compile Include="stubs\Stub.cs" />
     <Compile Include="stubs\StubOptions.cs" />
     <Compile Include="stubs\StubRestrictions.cs" />
@@ -107,6 +108,7 @@
     <Compile Include="web\core\IContainRequestDetails.cs" />
     <Compile Include="web\core\ICreateRequests.cs" />
     <Compile Include="web\core\IProcessIncomingWebRequests .cs" />
+    <Compile Include="web\core\LogMessageCommand.cs" />
     <Compile Include="web\core\MessageGenerator.cs" />
     <Compile Include="web\core\MissingCommandFactory.cs" />
     <Compile Include="web\core\asp\PageFactory.cs" />
